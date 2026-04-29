@@ -1,14 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import FormikLoginPage from "./components/FormikLoginPage";
-import FormikRegisterPage from "./components/FormikRegisterPage";
-import Charts from "./components/Charts";
+import Login from "./components/modules/auth/Login";
+import Register from "./components/modules/auth/Register";
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/login" element={<FormikLoginPage />} />
-        <Route path="/register" element={<FormikRegisterPage />} />
-        <Route path="/" element={<Charts />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </BrowserRouter>
   );

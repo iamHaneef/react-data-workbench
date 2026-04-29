@@ -1,6 +1,6 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 
-function FormikRegisterPage() {
+function Register() {
 
     return (
         <Formik
@@ -100,4 +100,4 @@ function FormikRegisterPage() {
 
 }
 
-export default FormikRegisterPage;
+export default Register;

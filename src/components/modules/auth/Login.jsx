@@ -1,6 +1,6 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 
-function FormikLoginPage() {
+function Login() {
 
     return (
         <Formik
@@ -20,6 +20,7 @@ function FormikLoginPage() {
                 }
 
                 if (!values.password) {
+
                     errors.password = "Enter a Correct Password";
                 }
                 else if (values.password.length < 5) {
@@ -63,4 +64,4 @@ function FormikLoginPage() {
 
 }
 
-export default FormikLoginPage;
+export default Login;
