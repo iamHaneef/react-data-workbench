@@ -49,7 +49,6 @@ function Register() {
                     alert("Registeration Successful");
                 }, 1000)
             }}
-
         >
 
             {() => (
@@ -97,7 +96,5 @@ function Register() {
             )}
         </Formik>
     )
-
 }
-
 export default Register;

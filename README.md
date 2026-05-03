@@ -2,17 +2,32 @@
 
 ## 📌 Overview
 
-A React-based UI implementation focused on building structured user interfaces for data-driven applications.
+A structured React-based UI implementation focused on building data-driven interfaces with clear separation between UI components and data sources.
 
-This repository currently includes form handling using Formik with validation and basic user authentication flows.
+This repository currently includes authentication forms and data visualization components using both mock data and real API integration.
 
 ---
 
 ## ⚙️ Current Implementation
 
+### 🔐 Authentication
+
 * User Login Form
 * User Registration Form
 * Form validation using Formik
+
+### 📊 Data Display
+
+* Data Table (Ant Design)
+* Bar Chart
+* Pie Chart
+* Donut Chart
+
+### 🔄 Data Handling
+
+* Mock data integration for development
+* API-based data fetching and transformation
+* Switchable data source (mock ↔ API)
 
 ---
 
@@ -21,6 +36,8 @@ This repository currently includes form handling using Formik with validation an
 * React.js
 * Vite
 * Formik
+* Ant Design
+* @antv/g2 (Charts)
 
 ---
 
@@ -28,10 +45,25 @@ This repository currently includes form handling using Formik with validation an
 
 ```bash
 src/
+├── core/
+│   ├── api/
+│   │   ├── chartApi.js
+│   │   └── userApi.js
+│   └── mock/
+│       ├── chartMock.js
+│       └── userMock.js
+│
 ├── modules/
-│   └── auth/
-│       ├── Login.jsx
-│       └── Register.jsx
+│   ├── auth/
+│   │   ├── Login.jsx
+│   │   └── Register.jsx
+│   │
+│   └── data-display/
+│       ├── Table.jsx
+│       ├── BarChart.jsx
+│       ├── PieChart.jsx
+│       └── DonutChart.jsx
+│
 ├── App.jsx
 ├── main.jsx
 ```
