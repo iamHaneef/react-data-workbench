@@ -1,5 +1,4 @@
 // core/mock/chartMock.js
-
 export const barChartMock = [
   { name: "London", month: "Jan", value: 18.9 },
   { name: "London", month: "Feb", value: 28.8 },
