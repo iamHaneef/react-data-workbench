@@ -6,6 +6,7 @@ import TableComponent from "./modules/data-display/TableComponent";
 import BarChart from "./modules/data-display/BarChart";
 import PieChart from "./modules/data-display/PieChart";
 import DonutChart from "./modules/data-display/DonutChart";
+import GaugeChart from "./modules/data-display/GaugeChart";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/" element={<BarChart   />} />
+        <Route path="/" element={<GaugeChart />} />
       </Routes>
     </BrowserRouter>
   );

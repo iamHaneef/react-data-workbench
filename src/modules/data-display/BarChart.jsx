@@ -4,7 +4,7 @@ import { Chart } from "@antv/g2";
 import { barChartMock } from "../../core/mock/chartMock";
 import { getBarChartData } from "../../core/api/chartApi";
 
-const USE_MOCK = true;
+const USE_MOCK = false;
 
 function BarChart() {
   const chartRef = useRef(null);

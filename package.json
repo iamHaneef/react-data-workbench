@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ant-design/plots": "^2.6.8",
+    "@ant-design/plots": "^2.1.10",
+    "@antv/g2": "^5.1.7",
+    "@antv/g2plot": "^2.4.28",
     "antd": "^6.3.7",
     "axios": "^1.15.2",
     "formik": "^2.4.9",
