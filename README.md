@@ -62,7 +62,8 @@ src/
 │       ├── Table.jsx
 │       ├── BarChart.jsx
 │       ├── PieChart.jsx
-│       └── DonutChart.jsx
+│       ├── DonutChart.jsx
+│       └── GaugeChart.jsx
 │
 ├── App.jsx
 ├── main.jsx
