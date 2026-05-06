@@ -7,6 +7,7 @@ import BarChart from "./modules/data-display/BarChart";
 import PieChart from "./modules/data-display/PieChart";
 import DonutChart from "./modules/data-display/DonutChart";
 import GaugeChart from "./modules/data-display/GaugeChart";
+import LineChart from "./modules/data-display/LineChart";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/" element={<GaugeChart />} />
+        <Route path="/" element={<LineChart />} />
       </Routes>
     </BrowserRouter>
   );

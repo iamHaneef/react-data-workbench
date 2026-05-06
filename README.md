@@ -63,6 +63,7 @@ src/
 │       ├── BarChart.jsx
 │       ├── PieChart.jsx
 │       ├── DonutChart.jsx
+│       └── LineChart.jsx
 │       └── GaugeChart.jsx
 │
 ├── App.jsx
