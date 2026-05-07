@@ -5,7 +5,6 @@ const LineChart = () => {
     const [data, setData] = useState([]);
     const containerRef = useRef(null);
     const chartRef = useRef(null);
-
     useEffect(() => {
         fetch('https://dummyjson.com/products?limit=5')
             .then(res => res.json())
