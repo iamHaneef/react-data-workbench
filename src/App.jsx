@@ -9,12 +9,13 @@ import DonutChart from "./modules/data-display/DonutChart";
 import GaugeChart from "./modules/data-display/GaugeChart";
 import LineChart from "./modules/data-display/LineChart";
 import StackedColumnLine from "./modules/data-display/StackedColumnLine";
+import SankeyChart from "./modules/data-display/SankeyChart";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<StackedColumnLine />} />
+        <Route path="/" element={<SankeyChart />} />
       </Routes>
     </BrowserRouter>
   );
