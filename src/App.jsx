@@ -8,14 +8,13 @@ import PieChart from "./modules/data-display/PieChart";
 import DonutChart from "./modules/data-display/DonutChart";
 import GaugeChart from "./modules/data-display/GaugeChart";
 import LineChart from "./modules/data-display/LineChart";
+import StackedColumnLine from "./modules/data-display/StackedColumnLine";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/" element={<LineChart />} />
+        <Route path="/" element={<StackedColumnLine />} />
       </Routes>
     </BrowserRouter>
   );
