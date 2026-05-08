@@ -82,6 +82,7 @@ function StackedColumnLine() {
 
         xField: "time", // xField is common for both column and line charts
 
+        // main prop is geometryOptions
         geometryOptions: [
             {
                 geometry: "column",
@@ -105,7 +106,7 @@ function StackedColumnLine() {
             }}
         >
             <Column
-                {...config.geometryOptions[0]}
+                {...config.geometryOptions[0]}  // geometryOptions is an array
                 data={config.data.column}
                 xField={config.xField}
             />
@@ -118,7 +119,7 @@ function StackedColumnLine() {
                 }}
             >
                 <Line
-                    {...config.geometryOptions[1]}
+                    {...config.geometryOptions[1]}  // geometryOptions is an array
                     data={config.data.line}
                     xField={config.xField}
                 />
