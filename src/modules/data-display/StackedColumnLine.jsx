@@ -80,20 +80,18 @@ function StackedColumnLine() {
     const config = {
         data: { column: columnData, line: lineData, },
 
-        xField: "time",
-
-        yField: { column: "value", line: "count" },
+        xField: "time", // xField is common for both column and line charts
 
         geometryOptions: [
             {
                 geometry: "column",
-                yField: "value",
+                yField: "value",  // column yField
                 seriesField: "type",
 
             },
             {
                 geometry: "line",
-                yField: "count",
+                yField: "count", // line yField
             },
         ],
     };

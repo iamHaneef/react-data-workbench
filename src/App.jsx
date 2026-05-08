@@ -15,7 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<SankeyChart />} />
+        <Route path="/" element={<StackedColumnLine />} />
       </Routes>
     </BrowserRouter>
   );
