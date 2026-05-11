@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Sankey } from "@ant-design/plots";
 
 function SankeyChart() {
@@ -57,15 +55,11 @@ function SankeyChart() {
         data,
 
         sourceField: "source",
-
         targetField: "target",
-
         weightField: "value",
 
         nodeWidthRatio: 0.02,
-
         nodePaddingRatio: 0.03,
-
         height: 500,
     };
 
