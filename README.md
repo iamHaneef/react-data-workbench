@@ -2,9 +2,9 @@
 
 ## 📌 Overview
 
-A structured React-based UI implementation focused on building data-driven interfaces with clear separation between UI components and data sources.
+A structured React-based workspace focused on building data-driven user interfaces with modular architecture, reusable UI components, and scalable data handling patterns.
 
-This repository currently includes authentication forms and data visualization components using both mock data and real API integration.
+This repository currently includes authentication flows, analytical UI components, and integration between mock data and API-driven rendering.
 
 ---
 
@@ -12,32 +12,36 @@ This repository currently includes authentication forms and data visualization c
 
 ### 🔐 Authentication
 
-* User Login Form
-* User Registration Form
-* Form validation using Formik
+- User Login Form
+- User Registration Form
+- Form validation using Formik
 
-### 📊 Data Display
+### 📊 Data Visualization & UI
 
-* Data Table (Ant Design)
-* Bar Chart
-* Pie Chart
-* Donut Chart
+- Interactive data tables
+- Bar chart visualization
+- Pie and donut chart rendering
+- Line and gauge charts
+- Sankey diagram visualization
+- Grouped and stacked chart layouts
+- Structured analytical UI components
 
 ### 🔄 Data Handling
 
-* Mock data integration for development
-* API-based data fetching and transformation
-* Switchable data source (mock ↔ API)
+- Mock data integration for development
+- API-based data fetching
+- Switchable mock ↔ API architecture
+- Data transformation for chart rendering
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React.js
-* Vite
-* Formik
-* Ant Design
-* @antv/g2 (Charts)
+- React.js
+- Vite
+- Formik
+- Ant Design
+- @antv/g2
 
 ---
 
@@ -49,6 +53,7 @@ src/
 │   ├── api/
 │   │   ├── chartApi.js
 │   │   └── userApi.js
+│   │
 │   └── mock/
 │       ├── chartMock.js
 │       └── userMock.js
@@ -59,17 +64,22 @@ src/
 │   │   └── Register.jsx
 │   │
 │   └── data-display/
-│       ├── Table.jsx
+│       ├── DataTable.jsx
 │       ├── BarChart.jsx
 │       ├── PieChart.jsx
 │       ├── DonutChart.jsx
-│       └── LineChart.jsx
-│       └── GaugeChart.jsx
+│       ├── LineChart.jsx
+│       ├── GaugeChart.jsx
+│       ├── RoseChart.jsx
+│       ├── SankeyChart.jsx
+│       ├── GroupedBarChart.jsx
+│       └── StackedColumnLineChart.jsx
 │
 ├── App.jsx
+├── App.css
 ├── main.jsx
+└── index.css
 ```
-
 ---
 
 ## 🚀 Running the Project
