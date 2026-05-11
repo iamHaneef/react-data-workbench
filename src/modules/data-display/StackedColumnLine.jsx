@@ -96,7 +96,7 @@ function StackedColumnLine() {
             },
         ],
     };
-    return (
+    rturn(
         <div
             style={{
                 position: "relative",

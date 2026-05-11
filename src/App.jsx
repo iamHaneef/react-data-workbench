@@ -10,14 +10,14 @@ import GaugeChart from "./modules/data-display/GaugeChart";
 import LineChart from "./modules/data-display/LineChart";
 import StackedColumnLine from "./modules/data-display/StackedColumnLine";
 import SankeyChart from "./modules/data-display/SankeyChart";
-import GroupedBarChart from "./modules/data-display/GroupedBarChart";
+import GroupedBarChart from "./modules/data-display/GroupedBarPlot";
 import RoseChart from "./modules/data-display/RoseChart";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<RoseChart />} />
+        <Route path="/" element={<DonutChart />} />
       </Routes>
     </BrowserRouter>
   );
