@@ -5,7 +5,7 @@ import { getUsers } from "../../core/api/userApi";
 
 const USE_MOCK = false;
 
-const TableComponent = () => {
+const DataTable = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -39,4 +39,4 @@ const TableComponent = () => {
   return <Table columns={columns} dataSource={data} rowKey="id" />;
 };
 
-export default TableComponent;
+export default DataTable;

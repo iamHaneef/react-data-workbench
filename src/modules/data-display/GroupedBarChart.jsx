@@ -1,6 +1,6 @@
 import { Bar } from '@ant-design/plots';
 
-const GroupedBarPlot = () => {
+const GroupedBarChart = () => {
     const data = [
         { label: 'Mon.', value: 2800 },
         { label: 'Tues.', value: 2260 },
@@ -39,4 +39,4 @@ const GroupedBarPlot = () => {
     return <Bar {...config} />;
 };
 
-export default GroupedBarPlot;
+export default GroupedBarChart;

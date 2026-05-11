@@ -1,6 +1,6 @@
 import { Rose } from '@ant-design/plots';
 
-const BasicRosePlot = () => {
+const RoseChart = () => {
     const data = [
         {
             type: 'Sales',
@@ -73,4 +73,4 @@ const BasicRosePlot = () => {
     );
 };
 
-export default BasicRosePlot;
+export default RoseChart;
