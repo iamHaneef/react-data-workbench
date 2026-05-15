@@ -23,8 +23,8 @@ const LineChart = () => {
         // line chart logic
         chartRef.current = new Line(containerRef.current, {
             data,
-            xField: "date",
-            yField: "value",
+            xField: "price",
+            yField: "rating",
             seriesField: "type",
 
             color: ["#30BF78", "#F4664A", "#FAAD14"],

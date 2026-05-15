@@ -31,8 +31,8 @@ const DataTable = () => {
       dataIndex: "email",
     },
     {
-      title: "Role",
-      dataIndex: "role",
+      title: "Domain",
+      dataIndex: "domain",
     },
   ];
 
